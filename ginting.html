@@ -290,8 +290,8 @@
     
     <div id="sidebar-menu">
         <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
-        <a href="#" id="home-link">🏡 Home</a>
-        <a href="#" id="gallery-link">🖼️ Galeri Kebersamaan</a>
+        <a href="#" id="home-link"> Home</a>
+        <a href="#" id="gallery-link"> Galeri Kebersamaan</a>
     </div>
 
     <div class="page-content" id="page-content">
@@ -325,7 +325,7 @@
             </section>
 
             <section id="gallery-section" class="content-box hidden">
-                <h2>🖼️ Galeri Kebersamaan Keluarga</h2>
+                <h2>Galeri Kebersamaan Keluarga</h2>
                 <p>Momen-momen indah yang kami abadikan.</p>
                 <div class="gallery-grid">
                     <img src="IMG-20250101-WA0150.jpg" alt="" onclick="openLightbox(this)">
@@ -359,12 +359,12 @@
             ],
             'kempu': [
                 { nama: 'Ekkel Gunanta Ginting', lahir: '16 Febuari 2001', info: "?", foto: 'https://via.placeholder.com/400/5D4037/FFFFFF?text=Foto+Kempu+C' },
-                { nama: 'Ananta AG Ginting', lahir: '14 September 2003',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
-              {nama: 'Alexanco Egrinta ginting', lahir: '13 desember 2005',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
-             { nama: 'Rima Enjelita Br Ginting', lahir: '28 Agustus 2007',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
-             { nama: 'Ateta Anastasya Br Ginting', lahir: '28 Desember 2009',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
-             { nama: 'Oryza Pranantha Ginting', lahir: '26 April 2010',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
-            { nama: 'Inggrid Waterya Br Ginting', lahir: '28 Mei 2013',infor: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+                { nama: 'Ananta AG Ginting', lahir: '14 September 2003',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+              {nama: 'Alexanco Egrinta ginting', lahir: '13 desember 2005',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+             { nama: 'Rima Enjelita Br Ginting', lahir: '28 Agustus 2007',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+             { nama: 'Ateta Anastasya Br Ginting', lahir: '28 Desember 2009',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+             { nama: 'Oryza Pranantha Ginting', lahir: '26 April 2010',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
+            { nama: 'Inggrid Waterya Br Ginting', lahir: '28 Mei 2013',info: "?", foto: 'https://via.placeholder.com/400/EADDCA/5D4037?text=Foto+Kempu+D' },
            
             
             ]
@@ -428,7 +428,7 @@
                         <p><strong>Tanggal Lahir:</strong> ${person.lahir}</p>
                         <p><strong>Informasi:</strong> ${person.info}</p>
                     </div>
-                    <button class="foto-khusus-btn" onclick="openLightbox({src:'${person.foto}', alt:'Foto Khusus ${person.nama}'})">📷 Lihat Foto Khusus</button>
+                    <button class="foto-khusus-btn" onclick="openLightbox({src:'${person.foto}', alt:'Foto ${person.nama}'})">Lihat Foto Khusus</button>
                 </div>
                 <button class="back-button" style="margin-top: 30px;" onclick="showCategory('${category}')">&#x2190; Kembali ke Daftar Nama</button>
             `;
@@ -488,3 +488,4 @@
 </body>
 
 </html>
+
